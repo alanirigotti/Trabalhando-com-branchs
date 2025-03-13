@@ -1,0 +1,11 @@
+criar uma branch com git branch nome-da-branch 
+> regras para nome da branch: 
+    - sem acentuação
+    - sem espaços
+    - nomes objetivos 
+
+mesclar branchs
+git checkout master ou main
+git merge nome-da-branch-desejada
+
+é preciso estar no arquivo que queira fazer o merge.
