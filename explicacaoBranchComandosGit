@@ -4,8 +4,12 @@ criar uma branch com git branch nome-da-branch
     - sem espaços
     - nomes objetivos 
 
-mesclar branchs
-git checkout master ou main
-git merge nome-da-branch-desejada
+MESCLAR BRANCHS 
+1. git checkout master ou main
+2. git merge nome-da-branch-desejada
+ 
+> COMMIT BRANCH 
+git push origin nome-da-branch
 
-é preciso estar no arquivo que queira fazer o merge.
+
+é preciso estar no arquivo que queira fazer o merge com outra branch.
