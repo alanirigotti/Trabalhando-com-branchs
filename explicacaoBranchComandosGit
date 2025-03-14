@@ -1,15 +1,32 @@
-criar uma branch com git branch nome-da-branch 
-> regras para nome da branch: 
+> criar uma branch com git branch nome-da-branch 
+
+    Regras para nome da branch: 
     - sem acentuação
     - sem espaços
     - nomes objetivos 
 
-MESCLAR BRANCHS 
-1. git checkout master ou main
-2. git merge nome-da-branch-desejada
+> MESCLAR BRANCHS 
+
+    1. git checkout master ou main - é preciso estar no arquivo que queira fazer o merge com outra branch, 
+                                     e ter salvo com git push origin nome-do-ramo.  
+
+    2. git merge nome-da-branch-desejada
  
 > COMMIT BRANCH 
-git push origin nome-da-branch
+
+    git push origin nome-da-branch
 
 
-é preciso estar no arquivo que queira fazer o merge com outra branch.
+
+> RESOLVENDO CONFLITOS 
+    
+    ao alterar um mesmo arquivo no mesmo trecho (linhas de código, por commits diferentes ou branchs diferentes, um conflito é detectado.
+    Isso ocorre porque o git controla para você todas as alterações de código que foram realizadas e mostra o conflito para que você decida o que fazer.
+    
+    No VSCODE aparecem algumas opções:
+
+        Accept Current Change = aceita a versão do código que já estava presente no branch atual descartando a versão do outro branch.
+
+        Accept Incomingo Change = aceita a versão do código que está vindo de outra branch, descartando a versão do branch atual. 
+
+        Compare Changes = abre uma comparação lado a lado para que vocÊ possa analisar as diferenças antes de decidir qual alteração aceitar.  
