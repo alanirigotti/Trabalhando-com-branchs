@@ -5,17 +5,18 @@
     - sem espaços
     - nomes objetivos 
 
+
 > MESCLAR BRANCHS 
 
     1. git checkout master ou main - é preciso estar no arquivo que queira fazer o merge com outra branch, 
                                      e ter salvo com git push origin nome-do-ramo.  
 
     2. git merge nome-da-branch-desejada
+
  
 > COMMIT BRANCH 
 
-    git push origin nome-da-branch
-
+    git push origin nome-da-branch 
 
 
 > RESOLVENDO CONFLITOS 
@@ -28,5 +29,11 @@
         Accept Current Change = aceita a versão do código que já estava presente no branch atual descartando a versão do outro branch.
 
         Accept Incomingo Change = aceita a versão do código que está vindo de outra branch, descartando a versão do branch atual. 
-
+  
         Compare Changes = abre uma comparação lado a lado para que vocÊ possa analisar as diferenças antes de decidir qual alteração aceitar.  
+    
+
+> COMANDOS
+    git branch -d (deletar branch local)
+    git push origin --delete nome-da-branch
+    
